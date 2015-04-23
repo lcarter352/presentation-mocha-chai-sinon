@@ -13,8 +13,8 @@ describe('sync vs async in mocha', function(){
 
   describe('#addAsync', function() {
 
-    // "done" tells mocha to run this async
-    // test will fail without "done"
+    // "done" allows mocha to run this async
+    // test should fail without "done", but for some reason it's not
     it('should callback with 4 when adding 2 and 2', function(done) {
       calculator.addAsync(2, 2, function(result) {
         result.should.equal(4);

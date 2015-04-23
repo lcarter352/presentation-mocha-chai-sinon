@@ -1,4 +1,3 @@
-//var Calculator = exports.Calculator = function() {};
 
 exports.addSync = function(a, b) {
   return a + b;
