@@ -1,6 +1,6 @@
 'use strict';
 
-var mongoose = require('mongoose');
+require('mongoose');
 var Superhero = require('./superhero.js');
 var Supervillain = require('./supervillain.js');
 

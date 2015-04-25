@@ -6,7 +6,7 @@ exports.addSync = function(a, b) {
 exports.addAsync = function(a, b, callback) {
   setTimeout(function() {
     callback(a + b);
-  }, 100);
+  }, 500);
 };
 
 exports.oops = function(a, b, callback) {

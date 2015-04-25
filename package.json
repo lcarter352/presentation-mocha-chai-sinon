@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "description": "Presentation for 352 Developers Conference on 4.24.15",
   "main": "index.js",
-  "scripts": {"test": "node_modules/mocha/bin/mocha tests"
-
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha tests"
   },
   "author": "Lee Carter",
   "license": "ISC",

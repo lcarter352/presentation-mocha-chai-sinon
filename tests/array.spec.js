@@ -7,11 +7,12 @@ describe('Array #indexOf()', function() {
       var values = [1, 2, 3];
 
       // act
-      var indexOf = values.indexOf(5);
+      var result = values.indexOf(5);
 
       // assert
-      assert(-1, indexOf); // this is a bad test
-      // assert.equal(-1, indexOf);
+      // warning: this is a bad test ==================
+      assert(-1, result);
+      //assert.equal(-1, indexOf);
     });
   });
   context('when the value is present in the array', function(){

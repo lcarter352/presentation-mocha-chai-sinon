@@ -14,12 +14,12 @@ describe('Assert Options', function() {
         var values = [1, 2, 3];
 
         // act
-        var indexOf = values.indexOf(5);
+        var result = values.indexOf(5);
 
         // assert
-        assert.equal(-1, indexOf); // chai.assert
-        expect(indexOf).to.equal(-1); // chai.expect
-        indexOf.should.equal(-1); // should.js
+        assert.equal(-1, result); // chai.assert
+        expect(result).to.equal(-1); // chai.expect
+        result.should.equal(-1); // should.js
       });
 
     });
